@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#B9E1FF;
+    padding:20px 80px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.06);
+}
+
+#navbarul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbarul li{
+    list-style: none;
+    padding:0 20px;
+    position: relative;
+}
+   #navbarul  li a{
+    text-decoration: none;
+    color:#000000;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+   }
+   #navbarul  li a:hover{
+    background: linear-gradient(95.77deg, #57B6FF 4.94%, #144ABA 103.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+   }
