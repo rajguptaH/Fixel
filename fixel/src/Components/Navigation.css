@@ -20,6 +20,7 @@ nav{
    #navbarul  li a{
     text-decoration: none;
     color:#000000;
+    font-family: 'Poppins';
     font-weight: 600;
     transition: 0.3s ease-in-out;
    }
