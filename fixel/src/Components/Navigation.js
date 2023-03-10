@@ -14,7 +14,7 @@ class Navigation extends Component  {
   
 
   <div className="" id="navbarSupportedContent">
-    <ul id='navbarul' className="">
+    <ul id='navbarul' className={this.state.clicked?"#navbarul active" : "#navbarul"}>
       <li className="">
         <a className="" href="#">Home </a>
       </li>
